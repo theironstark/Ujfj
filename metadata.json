@@ -1,0 +1,6 @@
+{
+  "name": "CYBER SWARM: Nanite Protocol",
+  "description": "3D neon sci-fi mobile portrait runner where player cyber-cannons multiply nanites through laser gates to defeat alien xenocores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

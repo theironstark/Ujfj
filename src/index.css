@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom cyber neon glow effects */
+.neon-glow-cyan {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+.neon-glow-emerald {
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.7), 0 0 20px rgba(16, 185, 129, 0.4);
+}
+.neon-glow-crimson {
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.4);
+}
+.neon-glow-amber {
+  text-shadow: 0 0 8px rgba(245, 158, 11, 0.7), 0 0 20px rgba(245, 158, 11, 0.4);
+}
